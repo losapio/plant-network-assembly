@@ -15,10 +15,6 @@ library(FactoMineR)
 load("/Users/losapiog/g/pre18/phd/r/spatial_ppnet/jvs_20180717.RData")
 # global networks, i.e. overall scales = 1 value across 75 cm
 
-396
-496
-517
-534
 u.net  <- matrix(NA,19,19, dimnames=c(list(sp.cod),list(sp.cod)))
 pu.net <- matrix(NA,19,19, dimnames=c(list(sp.cod),list(sp.cod)))
 
